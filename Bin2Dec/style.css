@@ -1,0 +1,46 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Source+Code+Pro&display=swap');
+
+body{
+    background: #f9ffa4;
+    font-family: 'Source Code Pro', monospace;
+    text-align: justify;
+}
+div{
+    background: #FFFF;
+    padding: 10px 50px;
+    margin: 20px 100px;
+    border-radius: 7px;
+    box-shadow:  0 8px 16px 0 #00000033, 0 6px 20px 0 #00000030;
+    
+}
+#entrada{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+}
+#botao{
+    background-color: #ffd000;
+    font-family: 'Source Code Pro', monospace;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    transition-duration: 0.4s;
+    justify-content: center;
+}
+#txtb{
+    text-decoration: none;
+    height: 20px;
+    width: 140px;
+    border-radius:7px solid rgb(255, 238, 0) ;
+}
+#botao:hover{
+    color: #ffff;
+    box-shadow:  0 8px 16px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+p,ul,h1,h2{
+    margin: 10px 0;
+}

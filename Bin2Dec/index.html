@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin2Dec</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Bin2Dec</h1>
+            <p><strong>Nível:</strong> 1-Iniciante</p>
+            <p>
+                Binário é o sistema numérico no qual todos os computadores digitais são baseados. Portanto, é importante que os desenvolvedores entendam a matemática binária ou base 2. O objetivo do Bin2Dec é fornecer prática e compreensão de como os cálculos binários.
+            </p>
+            <p>
+                Bin2Dec permite ao usuário inserir strings de até 8 dígitos binários, 0's e 1's, em qualquer sequência e, em seguida, exibe seu equivalente decimal.
+            </p>
+            <p>
+               Esse desafio exige que o desenvolvedor que o implemente siga estas restrições: 
+            </p>
+            <ul>
+                <li>Arrays não podem ser usados para conter os dígitos binários inseridos pelo usuário</li>
+                <li>A determinação do equivalente decimal de um dígito binário específico na sequência deve ser calculada usando uma única função matemática, por exemplo, o logaritmo natural. Cabe a você descobrir qual função usar.</li>
+            </ul>
+            <h2>Histórias de usuários</h2>
+            <ul>
+                <li>O usuário pode inserir até 8 dígitos binários em um campo de entrada</li>
+                <li>O usuário deve ser notificado se algo diferente de 0 ou 1 for inserido</li>
+                <li>O usuário visualiza os resultados em um único campo de saída contendo o equivalente decimal (base 10) do número binário inserido</li>
+            </ul>
+            <h2>Recursos Bônus</h2>
+            <p>O usuário pode inserir um número variável de dígitos binários</p>
+        </div>
+        <div id="entrada">
+            Digite uma sequência binária:<input type="number" max="8" name="txtb" id="txtb">
+            <input type="button" value="converter" id="botao" onclick="converte()">
+        </div>
+        <div id="res">
+            <h1>Resultado ...</h1>
+        </div>
+    </main>
+</body>
+</html>
