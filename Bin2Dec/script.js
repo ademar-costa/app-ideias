@@ -1,14 +1,20 @@
-function converte(binary,num){
+function converte(num,quant){
     let valor = document.getElementById('txtb')
     let res = document.getElementById('res')
-    binary = Number(valor.value)
-    num = Number(valor.value.length)
+    num = Number(valor.value)
+    quant = Number(valor.value.length)
 
+    let regex = /^[0-1]{8}$/
+    let testeLogico = regex.test(num)
+    
 
-    if(num < 8 && binary.toString(2)){ 
-        res.innerHTML = `<h1> Binario = ${binary}<br> quantidade de digito ${num}`
-        
+    if(quant <= 8 && testeLogico == true){
+        let decimal = parseInt(num, 2)
+        res.innerHTML = `<h1> O resultado é ${decimal}</h1>`
     }else{
-        alert('digite apenas 8 digitos')
+        alert('Digite apenas número binários de até 8 digitos!')
     }
+   
+    
+ 
 }
