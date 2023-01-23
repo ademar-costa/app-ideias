@@ -1,0 +1,60 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+
+body{
+    background: #afafaf;
+    font-family: 'Inconsolata', monospace;
+    text-align:left;
+}
+#info{
+    background: #ffffff;
+    padding: 10px 50px;
+    margin: 0 100px;
+    
+}
+h1{
+    text-align: center;
+    color: #1afa77;
+    padding-bottom: 20px;
+}
+h2{
+    padding: 10px 0 ;
+}
+#caixa{
+    
+    padding: 10px 50px;
+    margin: 0 100px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#res{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    background: #1afa77;
+    
+    box-shadow:  0 8px 16px 0 #000000d0, 0 6px 20px 0 #000000c7;
+}
+#entrada{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    margin: 4px;
+    border: none;
+    padding: 7px;
+    border-radius: 7px;
+    background: #a2fdc8;
+}
+#botao{
+    background: #1afa77;
+    cursor: pointer;
+    
+}
