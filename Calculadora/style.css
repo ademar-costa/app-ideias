@@ -27,25 +27,9 @@ h2 {
     margin: 5px 150px;
 }
 
-#calculadora {
+#main{
     margin: 60px 500px;
     padding: 30px;
     background-color: #00132c;
 }
 
-input {
-    background: #161616;
-    color: #ffffff;
-    font-size: 30px;
-    margin: 5px;
-    text-decoration: none;
-    border: none;
-    padding: 20px;
-    border-radius: 100px;
-}
-
-input:hover {
-    cursor: pointer;
-
-    transition: 5ms;
-}
